@@ -1,0 +1,129 @@
+/*------index------*/
+.bg-nav{
+    background-color: white;
+}
+.amiibo{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.bg-separator{
+    background-color: #ff9933;
+}
+
+.amiibo:hover{
+    transform: scale(1.05);
+}
+
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.imagen{
+    overflow: hidden;
+}
+.img-scale{
+    cursor: pointer;
+    transition: all ease-out 0.2s;
+}
+.img-scale:hover{
+    transform: scale(1.01);
+}
+
+#ribbon{
+    background-color: #fc7648;
+    background-image: repeating-linear-gradient(45deg,transparent, transparent 25px, rgba(131,21,21,0.5) 25px, rgba(131,21,21,0.5) 40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+
+#birthday{
+    background-color: #fc7648;
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#birthday img{
+    position: relative;
+    margin-top: -30px;
+}
+
+.btn-marca{
+    background-color: #fc7648;
+}
+
+.btn-marca:hover{
+    background-color: #ff6000;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transform: scale(1.1);
+}
+
+/*------productos------*/
+#productos .filter-btn{
+    color: #fc7648;
+    border: 1px solid #fc7648;
+    background-color: transparent;
+}
+#productos .filter-btn.active, #productos .filter-btn:hover{
+    background-color: #fc7648;
+    color: #000;
+}
+.h-35{
+    height: 35%;
+}
+.h-20{
+    height: 25%;
+}
+.h-90{
+    height: 90%;
+}
+
+/*------nosotros------*/
+.acerca{
+    box-shadow: 0 0 0 10px #fc7648 inset;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    display: block;
+}
+
+.acerca img{
+    transform: translateY(20px) translateX(-20px);
+    width: 100%;
+    z-index: 1;
+}
+
+.acerca-izq{
+    box-shadow: 0 0 0 10px #fc7648 inset;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    display: block;
+}
+
+.acerca-izq img{
+    transform: translateY(-20px) translateX(20px);
+    width: 100%;
+    z-index: 1;
+}
